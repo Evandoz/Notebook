@@ -6,10 +6,13 @@
   "license": "MIT",
   "scripts": {
     "docs:dev": "vuepress dev docs",
-    "docs:build": "vuepress build docs"
+    "docs:build": "vuepress build docs",
+    "deploy": "gh-pages -d dist",
+    "deploy:build": "vuepress build docs && gh-pages -d dist"
   },
   "devDependencies": {
     "cz-conventional-changelog": "3.0.2",
+    "gh-pages": "^2.1.1",
     "vuepress": "^1.2.0"
   },
   "config": {
