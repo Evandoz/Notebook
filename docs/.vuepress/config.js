@@ -8,11 +8,16 @@ module.exports = {
     nav: [
       { text: 'Home', link: '/' },
       { text: 'Linux', link: '/Linux/' },
+      { text: 'Web', link: '/Web/' },
       { text: 'Boot', link: '/Boot/' },
     ],
     sidebar: {
       '/Linux/': [
         'Linux-Security',
+        'Linux-Performance'
+      ],
+      '/Web/': [
+        'How-Does-Browser-Work'
       ],
       '/Boot/': [
 
