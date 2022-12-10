@@ -4,7 +4,7 @@ export default {
   description: 'Just record',
   lang: 'zh-CN',
   lastUpdated: true,
-  // base: '/Notebook',
+  base: '/Notebook',
   cleanUrls: 'with-subfolders',
   themeConfig: {
     nav: [
