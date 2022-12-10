@@ -1,1 +1,0 @@
-import{_ as e,c as t,o as a}from"./app.f9756765.js";const l=JSON.parse('{"title":"","description":"","frontmatter":{"layout":"page"},"headers":[],"relativePath":"Linux/index.md","lastUpdated":1670645438000}'),n={name:"Linux/index.md"};function o(r,s,c,d,i,p){return a(),t("div")}const m=e(n,[["render",o]]);export{l as __pageData,m as default};
