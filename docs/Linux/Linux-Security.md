@@ -1,15 +1,10 @@
 ---
-title: 安全强化你的 Linux 服务器的七个步骤
+title: Linux 服务器的安全强化
 ---
 
->  通过七个简单的步骤来加固你的 Linux 服务器。
-> 											-- Patrick H. Mullins
+# Linux 服务器的安全强化
 
-
-
-原文：[7 steps to securing your Linux server]( https://opensource.com/article/19/10/linux-server-security )
-
-
+> 原文：[7 steps to securing your Linux server]( https://opensource.com/article/19/10/linux-server-security )
 
 ## **1、更新你的服务器**
 
@@ -21,7 +16,7 @@ title: 安全强化你的 Linux 服务器的七个步骤
 $ sudo apt update && sudo apt upgrade -y
 ```
 
- 在 Fedora、CentOS 或 RHEL： 
+ 在 Fedora、CentOS 或 RHEL：
 
 ```sh
 $ sudo dnf upgrade

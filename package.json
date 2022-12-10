@@ -1,23 +1,18 @@
 {
   "name": "notebook",
   "version": "1.0.0",
+  "description": "personal notebook",
   "main": "index.js",
-  "author": "Levan <cstunao@gmail.com>",
+  "repository": "git@github.com:Evandoz/Notebook.git",
+  "author": "Evant <rayshining12@163.com>",
   "license": "MIT",
   "scripts": {
-    "docs:dev": "vuepress dev docs",
-    "docs:build": "vuepress build docs",
-    "deploy": "gh-pages -d dist",
-    "deploy:build": "vuepress build docs && gh-pages -d dist"
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:preview": "vitepress preview docs"
   },
   "devDependencies": {
-    "cz-conventional-changelog": "3.0.2",
-    "gh-pages": "^2.1.1",
-    "vuepress": "^1.2.0"
-  },
-  "config": {
-    "commitizen": {
-      "path": "./node_modules/cz-conventional-changelog"
-    }
+    "vitepress": "^1.0.0-alpha.30",
+    "vue": "^3.2.45"
   }
 }
